@@ -1,0 +1,2 @@
+#將需要的套件寫入此後在終端機輸入pip install -r requirements.txt將會自動安裝
+requests
