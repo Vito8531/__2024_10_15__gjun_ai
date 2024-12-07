@@ -1,3 +1,5 @@
 #將需要的套件寫於此內，在終端機輸入 pip install -r requirements.txt
 requests
 matplotlib
+numpy
+pandas
