@@ -3,3 +3,5 @@ requests
 matplotlib
 numpy
 pandas
+openpyxl
+jinja2
