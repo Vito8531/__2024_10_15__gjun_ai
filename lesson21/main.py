@@ -3,10 +3,11 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+@app.route("/<string:name>")
+def hello_world(name:str=""):
+    return f"<h1>Hello, {name}您好</h1>"
     
 
-#@app.route('/hello')
-#def hello():
-#    return 'Hello, World'
+@app.route('/hello')
+def hello():
+    return 'Hello, World'
